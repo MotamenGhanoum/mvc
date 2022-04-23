@@ -72,9 +72,19 @@ a:hover, a:active {
 p.copyright {
     width: 100%;
     color: #fff;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 40px;
     text-align: center;
     position: absolute;
     bottom: 0;
+}
+
+.foot p a{
+    font-size: 22px;
+    color: orange;
+}
+
+.foot p a:hover, a:active {
+    background-color: #333333;
+    color: white;
 }
